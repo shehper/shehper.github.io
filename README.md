@@ -6,6 +6,6 @@ Prior to this, I earned my PhD in Physics from The University of Texas at Austin
 
 For simple descriptions of my PhD papers, please refer to this link. Alternatively, you may watch a video talk of me summarizing my PhD work here.
 
-I grew up in [Lahore, Pakistan](https://en.wikipedia.org/wiki/Lahore) where I completed my BS in Physics from [Lahore University of Management Sciences](https://lums.edu.pk/). As an undergraduate, I studied [supersymmetric and topological field theories](https://arxiv.org/abs/1507.02662) under the supervision of [Amer Iqbal](https://en.wikipedia.org/wiki/Amer_Iqbal). 
+I completed my BS in Physics from [Lahore University of Management Sciences](https://lums.edu.pk/). I studied [supersymmetric and topological field theories](https://arxiv.org/abs/1507.02662) as an undergraduate under the supervision of [Amer Iqbal](https://en.wikipedia.org/wiki/Amer_Iqbal). 
 
 [Google Scholar](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=ao) / CV / [Twitter](https://twitter.com/AShehper) / LinkedIn
