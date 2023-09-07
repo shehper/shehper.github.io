@@ -8,7 +8,3 @@ Prior to this, I earned my PhD in Physics from The University of Texas at Austin
 For simple descriptions of my PhD papers, please refer to this link. Alternatively, you may watch a video talk of me summarizing my PhD work here.
 
 [Google Scholar](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=ao) / CV / [Twitter](https://twitter.com/AShehper) / LinkedIn
-
-[Image](https://github.com/shehper/shehper.github.io/blob/e96857cc9938ae60c23366b0c0072520725c4942/1b57aa97-e948-48b5-b5f4-713dcec14add.JPG)
-
-[Image2](1b57aa97-e948-48b5-b5f4-713dcec14add.JPG)
