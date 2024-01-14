@@ -2,7 +2,7 @@
 
 I am a postdoc in Physics at [Rutgers University](https://www.rutgers.edu/), where my research focuses on using Reinforcement Learning and Natural Langauge Processing to gain new insights into Math problems. For example, with my collaborators, I am studying the use of Policy Gradient algorithms to solve potential counterexamples of the [Andrews-Curtis conjecture](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture).
 
-I am also interested in studying the internals of deep learning models. I am currently implementing Anthropic's paper on the use of Sparse AutoEncoders to discover monosemantic features in language models. You may check out my GitHub repository [here](https://github.com/shehper/monosemantic)
+I am also interested in studying the internals of deep learning models. I am currently implementing Anthropic's paper on the use of Sparse AutoEncoders to discover monosemantic features in language models. You may check out my GitHub repository [here](https://github.com/shehper/monosemantic).
 
 I also recently implemented the scaling laws of [Kaplan-McCandlish et al](https://arxiv.org/abs/2001.08361) for large language models. The repository for this project is [here](https://github.com/shehper/scaling_laws).
 
