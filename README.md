@@ -1,13 +1,17 @@
 # Ali Shehper
 
-I am a postdoc in Physics at [Rutgers University](https://www.rutgers.edu/), where my research focuses on using Reinforcement Learning and Natural Langauge Processing to gain new insights into Math problems. For example, with my collaborators, I am studying the use of Policy Gradient algorithms to solve potential counterexamples of the [Andrews-Curtis conjecture](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture).
+I am a Physicist, currently researching the mechanistic interpretability of AI systems and the use of AI systems to solve Math problems. I am currently employed at Rutgers University. 
 
-I am also interested in studying the internals of deep learning models. I am currently implementing Anthropic's paper on the use of Sparse AutoEncoders to discover monosemantic features in language models. You may check out my GitHub repository [here](https://github.com/shehper/monosemantic).
+My current research interests include:
 
-I also recently implemented the scaling laws of [Kaplan-McCandlish et al](https://arxiv.org/abs/2001.08361) for large language models. The repository for this project is [here](https://github.com/shehper/scaling_laws).
+- understanding the internals of AI systems. (See my implementation of Anthropic's Sparse Dictionary Learning paper [here](https://github.com/shehper/monosemantic) and its associated [interface](https://shehper.github.io/feature-interface/) to explore features learned by a language model.)
+- using classical and deep learning search techniques to solve open Math problems. My collaborators and I have solved many potential counterexamples of the [Andrews-Curtis conjecture](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture) recently. This work will be published soon.
+- using mechanistic interpretability techniques to discover new results in Math! This is a novel, completely new approach to discovering new Math results. More details appearing here soon!
 
-Prior to my time at Rutgers, I studied theoretical physics at UT Austin, where my Ph.D. focused on theoretical aspects of quantum field theories. A list of my research papers can be found [here](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=sra). 
+My research is inspired by the scaling of AI models and their capabilities in the recent years. See my implementation of [the first scaling laws paper] [here](https://github.com/shehper/scaling_laws). It indicates that the optimal scaling of the size of langauge models might be independent of the specific datasets used (though it is known to be dependent on various hyperparameters).
 
-Please feel free to reach out if you are also interested in similar things or just want to chat.
+During my PhD at UT Austin, I studied theoretical aspects of quantum field theories and used them to discover new results in Math. My PhD thesis is available [here](https://repositories.lib.utexas.edu/server/api/core/bitstreams/47a5901a-8078-4145-91a4-c4463928d1d1/content), and a list of my research papers is available [here](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=sra). 
+
+Please feel free to send a message if you would like to chat.
 
 [Google Scholar](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=ao) / [GitHub](https://github.com/shehper) / [Twitter](https://twitter.com/AShehper) / [LinkedIn](https://www.linkedin.com/in/ali-shehper/)
