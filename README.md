@@ -6,8 +6,8 @@ My current research interests include:
 
 - understanding the internals of AI systems. (See my implementation of Anthropic's Sparse Dictionary Learning paper [here](https://github.com/shehper/monosemantic) and its associated [interface](https://shehper.github.io/feature-interface/) to explore features learned by a language model.)
 - using classical and deep learning search techniques to solve open Math problems. My collaborators and I have solved many potential counterexamples of the [Andrews-Curtis conjecture](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture) recently. This work will be published soon.
-- using mechanistic interpretability techniques to discover new results in Math! This is a novel, completely new approach to discovering new Math results. More details appearing here soon!
 
+  
 My research is inspired by the scaling of AI models and their capabilities in the recent years. See my implementation of [the first scaling laws paper] [here](https://github.com/shehper/scaling_laws). It indicates that the optimal scaling of the size of langauge models might be independent of the specific datasets used (though it is known to be dependent on various hyperparameters).
 
 During my PhD at UT Austin, I studied theoretical aspects of quantum field theories and used them to discover new results in Math. My PhD thesis is available [here](https://repositories.lib.utexas.edu/server/api/core/bitstreams/47a5901a-8078-4145-91a4-c4463928d1d1/content), and a list of my research papers is available [here](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=sra). 
