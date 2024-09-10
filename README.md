@@ -1,17 +1,47 @@
 # Ali Shehper
 
-I am a Physicist, currently researching the mechanistic interpretability of AI systems and the use of AI systems to solve Math problems. I am currently employed at Rutgers University. 
+I am a researcher specializing in AI, particularly in reinforcement learning algorithms for long-horizon, ultra-sparse-reward problems and the interpretability of AI systems. I received my PhD in Physics from The University of Texas at Austin, under the guidance of [Jacques Distler](https://golem.ph.utexas.edu/~distler/) and [Andrew Neitkze](https://gauss.math.yale.edu/~an592/), and I have an ongoing collaboration with [Sergei Gukov](http://theory.caltech.edu/~gukov/) at Caltech.
 
-My current research interests include:
+I am passionate about solving complex AI problems and exploring their implications for both theory and practice. Feel free to browse my work, and reach out for potential collaborations!
 
-- understanding the internals of AI systems. (See my implementation of Anthropic's Sparse Dictionary Learning paper [here](https://github.com/shehper/monosemantic) and its associated [interface](https://shehper.github.io/feature-interface/) to explore features learned by a language model.)
-- using classical and deep learning search techniques to solve open Math problems. My collaborators and I have solved many potential counterexamples of the [Andrews-Curtis conjecture](https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture) recently. This work will be published soon.
+## AI Papers:
 
+- [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332),  
+  **A. Shehper**, A. M. Medina-Mardones, B. Lewandowski, A. Gruen, P. Kucharski, S. Gukov.  
+  *Investigating reinforcement learning challenges in mathematical problem-solving.*
+
+## Code:
+
+- **[AC-Solver](https://github.com/shehper/AC-Solver):**  
+  A Python library for tackling long-horizon, ultra-sparse-reward RL environments, designed to accompany [our case study](https://arxiv.org/abs/2408.15332).
   
-My research is inspired by the scaling of AI models and their capabilities in the recent years. See [my implementation](https://github.com/shehper/scaling_laws) of [the first scaling laws paper](https://arxiv.org/abs/2001.08361), which indicates that the optimal scaling of the size of langauge models is independent of the choice of training dataset (when keeping hyperparameters and the choice of tokenizer fixed). It is known that this scaling law depends on various hyperparameters, courtesy of the [Chinchilla scaling laws](https://arxiv.org/abs/2203.15556).
+- **[Sparse-Dictionary-Learning](https://github.com/shehper/sparse-dictionary-learning):**  
+  An open-source implementation of Anthropic’s [Towards Monosemanticity: Decomposing Language Models with Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features/index.html).
+  
+- **[Neural Scaling Laws](https://github.com/shehper/scaling_laws):**  
+  An implementation of [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361), along with results from [An Empirical Model of Large-Batch Training](https://arxiv.org/abs/1812.06162).
 
-During my PhD at UT Austin, I studied theoretical aspects of quantum field theories and used them to discover new results in Math. My PhD thesis is available [here](https://repositories.lib.utexas.edu/server/api/core/bitstreams/47a5901a-8078-4145-91a4-c4463928d1d1/content), and a list of my research papers is available [here](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=sra). 
+- **[Language Model Feature Browser](https://shehper.github.io/feature-interface/):**  
+  A visualizer for features learned by a 1-layer Language Model, with the [GitHub Repository](https://github.com/shehper/feature-interface).
 
-Please feel free to send a message if you would like to chat.
+## Physics / Math Papers:
+
+- **[PhD Thesis: Aspects of Supersymmetric and Topological Quantum Field Theories](https://repositories.lib.utexas.edu/items/5c4fa949-3c47-450b-847f-6d155e2b57d8).**
+
+- **[Nonabelian Twists of the D4 Theory](https://arxiv.org/abs/2112.10227):**  
+  J. Distler, B. Ergun, A. Shehper (co-primary contributor, names in alphabetical order).
+
+- **[Symmetries of 2d TQFTs and Equivariant Verlinde Formulae for General Groups](https://arxiv.org/abs/2111.08032):**  
+  S. Gukov, D. Pei, C. Reid, A. Shehper (primary contributor, names in alphabetical order).
+
+- **[Distinguishing 4d N=2 SCFTs](https://arxiv.org/abs/2012.15249):**  
+  J. Distler, B. Ergun, A. Shehper (co-primary contributor, names in alphabetical order).
+
+- **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970):**  
+  A. Neitzke, A. Shehper (primary contributor, names in alphabetical order).
+
+## Contact and Collaboration
+
+I am always open to discussions on reinforcement learning, AI interpretability, and related areas of physics and mathematics. Feel free to reach out for potential collaborations, research opportunities, or simply to connect.
 
 [Google Scholar](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=ao) / [GitHub](https://github.com/shehper) / [Twitter](https://twitter.com/AShehper) / [LinkedIn](https://www.linkedin.com/in/ali-shehper/)
