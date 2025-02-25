@@ -1,13 +1,13 @@
 # Ali Shehper
 
-I am a researcher specializing in AI, particularly in reinforcement learning algorithms for long-horizon, ultra-sparse-reward problems and the interpretability of AI systems. I received my PhD in Physics from The University of Texas at Austin, under the guidance of [Jacques Distler](https://golem.ph.utexas.edu/~distler/) and [Andrew Neitkze](https://gauss.math.yale.edu/~an592/), and I have an ongoing collaboration with [Sergei Gukov](http://theory.caltech.edu/~gukov/) at Caltech.
+I am a Research Scientist at Caltech, building AI systems to solve hard, research-level math problems.
 
-I am passionate about solving complex AI problems and exploring their implications for both theory and practice. Feel free to browse my work, and reach out for potential collaborations!
+Previously, I received my PhD in Physics from UT Austin, under the guidance of [Jacques Distler](https://golem.ph.utexas.edu/~distler/) and [Andrew Neitkze](https://gauss.math.yale.edu/~an592/).
 
 ## AI Papers:
 
 - [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332),  
-  **A. Shehper**, A. M. Medina-Mardones, B. Lewandowski, A. Gruen, P. Kucharski, S. Gukov.  
+  **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.  
   *Investigating reinforcement learning challenges in mathematical problem-solving.*
 
 ## Code:
