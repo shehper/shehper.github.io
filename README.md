@@ -2,7 +2,7 @@
 
 I am a Research Scientist at Caltech, building AI systems to solve hard, research-level math problems.
 
-Previously, I received my PhD in Physics from UT Austin, under the guidance of [Jacques Distler](https://golem.ph.utexas.edu/~distler/) and [Andrew Neitkze](https://gauss.math.yale.edu/~an592/).
+Previously, I received my PhD in Physics from UT Austin, where I worked on supersymmetric and topological quantum field theories.
 
 ## AI Papers:
 
