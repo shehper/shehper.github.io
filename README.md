@@ -1,6 +1,6 @@
 # Ali Shehper
 
-I am a Research Scientist at Caltech, building AI systems to solve hard, research-level math problems.
+I am a Research Scientist at Caltech, building AI systems to solve research-level math problems.
 
 Previously, I received my PhD in Physics from UT Austin, where I worked on supersymmetric and topological quantum field theories.
 
