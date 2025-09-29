@@ -8,7 +8,7 @@ Previously, I received my PhD in Physics from UT Austin, where I worked on super
 
 - [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332),  
   **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.  
-  *Investigating reinforcement learning challenges in mathematical problem-solving.*
+  *Investigating reinforcement learning challenges in mathematical problem-solving. (Accepted at NeurIPS 2025)*
 
 ## Code:
 
