@@ -17,7 +17,7 @@ Previously, I received my PhD in Physics from UT Austin, where I worked on super
 - I gave an invited talk at [ML4Jets2025](https://indico.cern.ch/event/1526677/) on August 23rd, 2025.
 - I attended [2025 JAX & OpenXLA Summer DevLabs](https://openxla.org/events/summer_devlab_2025) on June 23rd-24th in Sunnyvale, CA.
 
-## AI-For-Math Papers:
+## AI-For-Math Paper:
 
 - [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332), (Accepted at NeurIPS 2025)  
   **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.  
