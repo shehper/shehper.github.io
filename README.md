@@ -6,13 +6,14 @@ Previously, I received my PhD in Physics from UT Austin, where I worked on super
 
 ## Media
 
-- [How an Unsolved Math Problem Could Train AI to Predict Crises Years in Advance](https://www.scientificamerican.com/article/how-this-ai-breakthrough-with-pure-mathematics-and-reinforcement-learning/), Scientific American.
-- [AI Program Plays the Long Game to Solve Decades-Old Math Problems](https://www.caltech.edu/about/news/ai-program-plays-the-long-game-to-solve-decades-old-math-problems), Caltech Media.
+- [How an Unsolved Math Problem Could Train AI to Predict Crises Years in Advance](https://www.scientificamerican.com/article/how-this-ai-breakthrough-with-pure-mathematics-and-reinforcement-learning/), Scientific American. August, 2025.
+- [AI Program Plays the Long Game to Solve Decades-Old Math Problems](https://www.caltech.edu/about/news/ai-program-plays-the-long-game-to-solve-decades-old-math-problems), Caltech Media. February, 2025.
 
 ## Some News
 
 - I will be attending [2025 JAX & OpenXLA Fall DevLabs](https://openxla.org/events/fall_devlab_2025) on Novemeber 18th-19th in Sunnyvale, CA.
-- I will be presenting our work at [NeurIPS 2025](https://neurips.cc/) on November 30th-December 5th in San Diego, CA.
+- I will be presenting [our work](https://neurips.cc/virtual/2025/poster/118658) at [NeurIPS 2025](https://neurips.cc/) on November 30th-December 5th in San Diego, CA.
+- I will be giving an invited talk at the *ML Tools for Mathematical Discovery* workshop at [2026 Joint Mathematics Meetings]([https://meetings.ams.org/math/jmm2026/cfp.cgi](https://jointmathematicsmeetings.org/jmm)). 
 - I gave an invited talk at [ML4Jets2025](https://indico.cern.ch/event/1526677/) on August 23rd, 2025.
 - I attended [2025 JAX & OpenXLA Summer DevLabs](https://openxla.org/events/summer_devlab_2025) on June 23rd-24th in Sunnyvale, CA.
 
