@@ -1,8 +1,8 @@
 # Ali Shehper
 
-I am a Research Scientist at Caltech, building AI systems for research-level math problems.
+I am an AI Researcher at Essential AI, working on the science of language model pre-training.
 
-Previously, I received my PhD in Physics from UT Austin, where I worked on supersymmetric and topological quantum field theories.
+Previously, I was a Research Scientist (RL for Math) at Caltech, before which I was a Physicist, working on supersymmetric and topological quantum field theories.
 
 ## Media
 
@@ -11,7 +11,6 @@ Previously, I received my PhD in Physics from UT Austin, where I worked on super
 
 ## Some News
 
-- I will be attending [2025 JAX & OpenXLA Fall DevLabs](https://openxla.org/events/fall_devlab_2025) on Novemeber 18th-19th in Sunnyvale, CA.
 - I will be presenting [our work](https://neurips.cc/virtual/2025/poster/118658) at [NeurIPS 2025](https://neurips.cc/) on November 30th-December 5th in San Diego, CA.
 - I will be giving an invited talk at the *ML Tools for Mathematical Discovery* workshop at [2026 Joint Mathematics Meetings](https://jointmathematicsmeetings.org/jmm). 
 - I gave an invited talk at [ML4Jets2025](https://indico.cern.ch/event/1526677/) on August 23rd, 2025.
