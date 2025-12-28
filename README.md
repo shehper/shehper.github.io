@@ -4,6 +4,8 @@ I am an AI Researcher at Essential AI, working on the science of language model 
 
 Previously, I was a Research Scientist at Caltech where I worked on Reinforcement Learning for Math. Before that, I was a Physicist, working on supersymmetric and topological quantum field theories.
 
+**[Blog](/blog/)**
+
 <!--
 ## Media
 
