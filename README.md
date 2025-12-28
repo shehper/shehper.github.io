@@ -2,8 +2,9 @@
 
 I am an AI Researcher at Essential AI, working on the science of language model pre-training.
 
-Previously, I was a Research Scientist (RL for Math) at Caltech, before which I was a Physicist, working on supersymmetric and topological quantum field theories.
+Previously, I was a Research Scientist at Caltech where I worked on Reinforcement Learning for Math. Before that, I was a Physicist, working on supersymmetric and topological quantum field theories.
 
+<!--
 ## Media
 
 - [How an Unsolved Math Problem Could Train AI to Predict Crises Years in Advance](https://www.scientificamerican.com/article/how-this-ai-breakthrough-with-pure-mathematics-and-reinforcement-learning/), Scientific American. August, 2025.
@@ -15,8 +16,8 @@ Previously, I was a Research Scientist (RL for Math) at Caltech, before which I 
 - I will be giving an invited talk at the *ML Tools for Mathematical Discovery* workshop at [2026 Joint Mathematics Meetings](https://jointmathematicsmeetings.org/jmm). 
 - I gave an invited talk at [ML4Jets2025](https://indico.cern.ch/event/1526677/) on August 23rd, 2025.
 - I attended [2025 JAX & OpenXLA Summer DevLabs](https://openxla.org/events/summer_devlab_2025) on June 23rd-24th in Sunnyvale, CA.
-
-## AI-For-Math Paper:
+-->
+## RL-For-Math:
 
 - [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332), (Accepted at NeurIPS 2025)  
   **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.  
@@ -52,8 +53,9 @@ Previously, I was a Research Scientist (RL for Math) at Caltech, before which I 
 - **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970):**  
   A. Neitzke, A. Shehper (primary contributor, names in alphabetical order).
 
+<!--
 ## Contact and Collaboration
 
 I am always open to discussions on reinforcement learning, AI interpretability, and related areas of physics and mathematics. Feel free to reach out for potential collaborations, research opportunities, or simply to connect.
-
+-->
 [Google Scholar](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=ao) / [GitHub](https://github.com/shehper) / [Twitter](https://twitter.com/AShehper) / [LinkedIn](https://www.linkedin.com/in/ali-shehper/)
