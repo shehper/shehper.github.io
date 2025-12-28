@@ -4,6 +4,7 @@ title: "What Makes Larger Models Better? A Features' Perspective"
 date: 2025-01-15
 ---
 
+Notes of a talk I recently gave on feature superposition (a microscopic phenomenon) and neural scaling laws (a macroscopic phenomenon). 
 
 ## Guiding Question For My Research
 
