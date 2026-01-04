@@ -6,12 +6,12 @@ Previously, I was a Research Scientist at Caltech where I worked on Reinforcemen
 
 **[Blog](/blog/)**
 
-<!--
 ## Media
 
 - [How an Unsolved Math Problem Could Train AI to Predict Crises Years in Advance](https://www.scientificamerican.com/article/how-this-ai-breakthrough-with-pure-mathematics-and-reinforcement-learning/), Scientific American. August, 2025.
 - [AI Program Plays the Long Game to Solve Decades-Old Math Problems](https://www.caltech.edu/about/news/ai-program-plays-the-long-game-to-solve-decades-old-math-problems), Caltech Media. February, 2025.
 
+<!--
 ## Some News
 
 - I will be presenting [our work](https://neurips.cc/virtual/2025/poster/118658) at [NeurIPS 2025](https://neurips.cc/) on November 30th-December 5th in San Diego, CA.
