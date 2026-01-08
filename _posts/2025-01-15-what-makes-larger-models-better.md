@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Makes Larger Models Better? A Features' Perspective"
+title: "A Features' Perspective on Neural Scaling Laws"
 date: 2025-01-15
 ---
 
