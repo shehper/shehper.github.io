@@ -1,10 +1,12 @@
 # Ali Shehper
 
-I am an AI Researcher at Essential AI, working on the science of language model pre-training.
+I am an AI Researcher at [Essential AI](https://essential.ai/), working on the science of language model pre-training.
 
-Previously, I was a Research Scientist at Caltech where I worked on Reinforcement Learning for Math. Before that, I was a Physicist, working on supersymmetric and topological quantum field theories.
+Previously, I was a Research Scientist at Caltech, focusing on Reinforcement Learning for Math, and before that a Physicist studying supersymmetric and topological quantum field theories.
 
-**[Blog](/blog/)**
+## Research Blog
+
+- [A Features' Perspective on Neural Scaling Laws](/2025/01/15/what-makes-larger-models-better.html)
 
 ## Media
 
@@ -19,41 +21,40 @@ Previously, I was a Research Scientist at Caltech where I worked on Reinforcemen
 - I gave an invited talk at [ML4Jets2025](https://indico.cern.ch/event/1526677/) on August 23rd, 2025.
 - I attended [2025 JAX & OpenXLA Summer DevLabs](https://openxla.org/events/summer_devlab_2025) on June 23rd-24th in Sunnyvale, CA.
 -->
-## RL-For-Math:
+## RL For Math
 
 - [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332), (Accepted at NeurIPS 2025)  
-  **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.  
-  *Investigating reinforcement learning challenges in mathematical problem-solving.*
+  **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.
 
-## Code:
+## Code
 
-- **[AC-Solver](https://github.com/shehper/AC-Solver):**  
+- **[AC-Solver](https://github.com/shehper/AC-Solver)**
   A Python library for tackling long-horizon, ultra-sparse-reward RL environments, designed to accompany [our case study](https://arxiv.org/abs/2408.15332).
   
-- **[Sparse-Dictionary-Learning](https://github.com/shehper/sparse-dictionary-learning):**  
+- **[Sparse-Dictionary-Learning](https://github.com/shehper/sparse-dictionary-learning)**
   An open-source implementation of Anthropic’s [Towards Monosemanticity: Decomposing Language Models with Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features/index.html).
   
-- **[Neural Scaling Laws](https://github.com/shehper/scaling_laws):**  
+- **[Neural Scaling Laws](https://github.com/shehper/scaling_laws)**
   An implementation of [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361), along with results from [An Empirical Model of Large-Batch Training](https://arxiv.org/abs/1812.06162).
 
-- **[Language Model Feature Browser](https://shehper.github.io/feature-interface/):**  
+- **[Language Model Feature Browser](https://shehper.github.io/feature-interface/)**
   A visualizer for features learned by a 1-layer Language Model, with the [GitHub Repository](https://github.com/shehper/feature-interface).
 
-## Physics / Math Papers:
+## Physics and Math
 
 - **[PhD Thesis: Aspects of Supersymmetric and Topological Quantum Field Theories](https://repositories.lib.utexas.edu/items/5c4fa949-3c47-450b-847f-6d155e2b57d8).**
 
-- **[Nonabelian Twists of the D4 Theory](https://arxiv.org/abs/2112.10227):**  
-  J. Distler, B. Ergun, A. Shehper (co-primary contributor, names in alphabetical order).
+- **[Nonabelian Twists of the D4 Theory](https://arxiv.org/abs/2112.10227)**
+  J. Distler, B. Ergun, A. Shehper (equal contribution with B. Ergun, alphabetical order).
 
-- **[Symmetries of 2d TQFTs and Equivariant Verlinde Formulae for General Groups](https://arxiv.org/abs/2111.08032):**  
-  S. Gukov, D. Pei, C. Reid, A. Shehper (primary contributor, names in alphabetical order).
+- **[Symmetries of 2d TQFTs and Equivariant Verlinde Formulae for General Groups](https://arxiv.org/abs/2111.08032)**
+  S. Gukov, D. Pei, C. Reid, A. Shehper (lead contributor, alphabetical order).
 
-- **[Distinguishing 4d N=2 SCFTs](https://arxiv.org/abs/2012.15249):**  
-  J. Distler, B. Ergun, A. Shehper (co-primary contributor, names in alphabetical order).
+- **[Distinguishing 4d N=2 SCFTs](https://arxiv.org/abs/2012.15249)**
+  J. Distler, B. Ergun, A. Shehper (equal contribution with B. Ergun, alphabetical order).
 
-- **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970):**  
-  A. Neitzke, A. Shehper (primary contributor, names in alphabetical order).
+- **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970)**
+  A. Neitzke, A. Shehper (lead contributor, alphabetical order).
 
 <!--
 ## Contact and Collaboration
