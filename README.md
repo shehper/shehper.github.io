@@ -1,6 +1,6 @@
 # Ali Shehper
 
-I am an AI Researcher at NVIDIA, working as a Senior Research Scientist on the Nemotron team. 
+I am an AI Researcher at **NVIDIA**, working as a **Senior Research Scientist** on the Nemotron team. 
 
 Previously, I worked on language model pre-training at [Essential AI](https://essential.ai/). 
 Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement Learning for Math, and earlier, a Physicist studying supersymmetric and topological quantum field theories.
@@ -8,7 +8,7 @@ Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement 
 ## Pre-training Science
 
 - [A Training-Time Diagnostic for Generalization via the Log-Alignment Ratio](https://arxiv.org/abs/2605.28975).
-**A. Shehper**, A. Vaswani.
+  **A. Shehper**, A. Vaswani.
 
 
 ## RL For Math
