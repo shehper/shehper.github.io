@@ -12,10 +12,10 @@ Prior to that, I was a Research Scientist at **Caltech**, focusing on **Reinforc
 
 ## RL For Math
 
-- **The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning**, (Accepted at ICML 2026)  
+- The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning, (Accepted at ICML 2026)  
   L. Fagan\*, M. Tarquini\*, **A. Shehper**\*, M. Manko, A. Gruen, C. Huang, G. Butbaia, D. Passaro, S. Gukov. (\* equal contribution)
 
-- **Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra**, (Accepted at ICML 2026)  
+- Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra, (Accepted at ICML 2026)  
   G. Butbaia, P. Orland, C. Huang, D. Passaro, L. Fagan, M. Tarquini, H. Dao, D. Eisenbud, **A. Shehper**, S. Gukov.
 
 - [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332), (Accepted at NeurIPS 2025)  
