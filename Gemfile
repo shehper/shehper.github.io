@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 gem "csv"  # Required for Ruby 4.0+
 gem "bigdecimal"  # Required for Ruby 4.0+
+gem "webrick"  # Required for `jekyll serve` on Ruby 3.0+
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

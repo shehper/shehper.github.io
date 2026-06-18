@@ -1,31 +1,27 @@
 # Ali Shehper
 
-I am an AI Researcher at **NVIDIA**, working as a **Senior Research Scientist** on the Nemotron team. 
+I am an AI Researcher, currently a Senior Research Scientist on the Nemotron team at NVIDIA. 
 
-Previously, I worked on language model pre-training at [Essential AI](https://essential.ai/). 
-Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement Learning for Math, and earlier, a Physicist studying supersymmetric and topological quantum field theories.
+<!-- I previously worked on language models at [Essential AI](https://essential.ai/). 
+Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement Learning for Math, and earlier, a Physicist studying supersymmetric and topological quantum field theories. -->
+I was trained as a physicist, studying supersymmetric and topological quantum field theories. I switched to studying Reinforcement Learning for Math during my postdoc studies, and most recently, I have worked on language models at [Essential AI](https://essential.ai/). 
 
-## Pre-training Science
+
+
+## Blog
+
+- [Revisiting Neural Network Parameterizations for Optimal Performance](/2026/05/24/revisiting-neural-network-parameterizations-for-optimal-performance.html)
+- [A Features' Perspective on Neural Scaling Laws](/2025/01/15/what-makes-larger-models-better.html)
+
+## Papers
+ 
+### Science of Deep Learning
 
 - [A Training-Time Diagnostic for Generalization via the Log-Alignment Ratio](https://arxiv.org/abs/2605.28975).
   **A. Shehper**, A. Vaswani.
 
 
-## RL For Math
-
-- The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning, (Accepted at ICML 2026)  
-  L. Fagan\*, M. Tarquini\*, **A. Shehper**\*, M. Manko, A. Gruen, C. Huang, G. Butbaia, D. Passaro, S. Gukov. (\* equal contribution)
-
-- Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra, (Accepted at ICML 2026)  
-  G. Butbaia, P. Orland, C. Huang, D. Passaro, L. Fagan, M. Tarquini, H. Dao, D. Eisenbud, **A. Shehper**, S. Gukov.
-
-- [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332), (Accepted at NeurIPS 2025)  
-  **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.
-
-
-## Physics and Math
-
-- **[PhD Thesis: Aspects of Supersymmetric and Topological Quantum Field Theories](https://repositories.lib.utexas.edu/items/5c4fa949-3c47-450b-847f-6d155e2b57d8).**
+### Physics
 
 - **[Nonabelian Twists of the D4 Theory](https://arxiv.org/abs/2112.10227)**
   J. Distler, B. Ergun, **A. Shehper** (equal contribution with B. Ergun, alphabetical order).
@@ -39,10 +35,20 @@ Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement 
 - **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970)**
   A. Neitzke, **A. Shehper** (lead contributor, alphabetical order).
 
+- **[PhD Thesis: Aspects of Supersymmetric and Topological Quantum Field Theories](https://repositories.lib.utexas.edu/items/5c4fa949-3c47-450b-847f-6d155e2b57d8).**
 
-## Research Blog
 
-- [A Features' Perspective on Neural Scaling Laws](/2025/01/15/what-makes-larger-models-better.html)
+### RL For Math
+
+- [What makes math problems hard for reinforcement learning: a case study](https://arxiv.org/abs/2408.15332), (Accepted at NeurIPS 2025)  
+  **A. Shehper**, A. M. Medina-Mardones, L. Fagan, B. Lewandowski, A. Gruen, Y. Qiu, P. Kucharski, Z. Wang, S. Gukov.
+
+- The Two-Hump Problem: Bridging the Difficulty Gap in Mathematical Reinforcement Learning, (Accepted at ICML 2026)  
+  L. Fagan\*, M. Tarquini\*, **A. Shehper**\*, M. Manko, A. Gruen, C. Huang, G. Butbaia, D. Passaro, S. Gukov. (\* equal contribution)
+
+- Hierarchical Reinforcement Learning for Sparse-Reward Search in Commutative Algebra, (Accepted at ICML 2026)  
+  G. Butbaia, P. Orland, C. Huang, D. Passaro, L. Fagan, M. Tarquini, H. Dao, D. Eisenbud, **A. Shehper**, S. Gukov.
+
 
 ## Code
 
@@ -58,10 +64,10 @@ Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement 
 - **[Language Model Feature Browser](https://shehper.github.io/feature-interface/)**
   A visualizer for features learned by a 1-layer Language Model, with the [GitHub Repository](https://github.com/shehper/feature-interface).
 
-## Media
+<!-- ## Media
 
 - [How an Unsolved Math Problem Could Train AI to Predict Crises Years in Advance](https://www.scientificamerican.com/article/how-this-ai-breakthrough-with-pure-mathematics-and-reinforcement-learning/), Scientific American. August, 2025.
-- [AI Program Plays the Long Game to Solve Decades-Old Math Problems](https://www.caltech.edu/about/news/ai-program-plays-the-long-game-to-solve-decades-old-math-problems), Caltech Media. February, 2025.
+- [AI Program Plays the Long Game to Solve Decades-Old Math Problems](https://www.caltech.edu/about/news/ai-program-plays-the-long-game-to-solve-decades-old-math-problems), Caltech Media. February, 2025. -->
 
 
 [Google Scholar](https://scholar.google.com/citations?user=FkUMJF4AAAAJ&hl=en&oi=ao) / [GitHub](https://github.com/shehper) / [Twitter](https://twitter.com/AShehper) / [LinkedIn](https://www.linkedin.com/in/ali-shehper/)

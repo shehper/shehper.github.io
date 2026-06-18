@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
     <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        line-height: 1.7;
+        color: #24292e;
+        background-color: #fff;
+      }
       .markdown-body {
         box-sizing: border-box;
         min-width: 200px;
-        max-width: 900px;
+        max-width: 760px;
         margin: 0 auto;
         padding: 45px;
+        font-size: 17px;
       }
       @media (max-width: 767px) {
         .markdown-body {
-          padding: 15px;
+          padding: 18px;
+          font-size: 16px;
         }
       }
       .post-header {
         text-align: center;
-        margin-bottom: 2em;
-        padding-bottom: 1em;
+        margin-bottom: 2.5em;
+        padding-bottom: 1.2em;
         border-bottom: 1px solid #eaecef;
       }
       .post-header h1 {
-        margin-bottom: 0.5em;
+        margin-bottom: 0.4em;
+        line-height: 1.25;
+        border-bottom: none;
       }
       .post-meta {
         color: #666;
@@ -37,16 +48,149 @@
         color: #0366d6;
         text-decoration: none;
       }
-      .back-link:hover {
-        text-decoration: underline;
+      .back-link:hover { text-decoration: underline; }
+
+      /* Notion-style callouts (TL;DR, Acknowledgements, etc.) */
+      .callout {
+        background: #f6f8fa;
+        border: 1px solid #e1e4e8;
+        border-radius: 8px;
+        padding: 1em 1.25em;
+        margin: 1.5em 0;
       }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        line-height: 1.6;
+      .callout > :first-child { margin-top: 0; }
+      .callout > :last-child { margin-bottom: 0; }
+      .callout-label { font-weight: 600; }
+      .callout-label.meta  { color: #6f42c1; }
+      .callout-label.green { color: #1a7f37; }
+
+      /* Figures */
+      figure {
+        margin: 1.8em 0;
+        text-align: center;
+      }
+      figure img {
+        max-width: 100%;
+        height: auto;
+      }
+      figcaption {
+        font-size: 0.85em;
+        color: #57606a;
+        margin-top: 0.6em;
+        line-height: 1.5;
+      }
+      /* Side-by-side figure groups. Images in a row share a fixed height so
+         their frames and captions line up even when aspect ratios differ. */
+      .fig-row {
+        container-type: inline-size;
+        display: flex;
+        gap: 1.2em;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 1.8em 0;
+        /* Break out wider than the text column so side-by-side figures are
+           large enough to read without zooming. Centered on the page. */
+        width: min(94vw, 1040px);
+        margin-left: 50%;
+        transform: translateX(-50%);
+      }
+      /* Equal-width columns that don't wrap; captions wrap inside their column. */
+      .fig-row figure {
+        flex: 1 1 0;
+        min-width: 0;
+        margin: 0;
+        text-align: center;
+      }
+      /* Height sized to the row's own width (cqw), so paired images stay the
+         same height and never get clamped by their column. */
+      .fig-row figure img {
+        height: min(300px, 30cqw);
+        width: auto;
+        max-width: 100%;
+      }
+      .fig-row.cols-3 figure img {
+        height: min(270px, 26cqw);
+      }
+      /* Stack only on true phone widths, where two-across is unreadable. */
+      @media (max-width: 480px) {
+        .fig-row { flex-wrap: wrap; }
+        .fig-row figure { flex-basis: 100%; }
+        .fig-row figure img,
+        .fig-row.cols-3 figure img {
+          height: auto;
+          width: 100%;
+        }
+      }
+
+      /* Footnotes */
+      .footnotes {
+        font-size: 0.88em;
+        color: #57606a;
+        border-top: 1px solid #eaecef;
+        margin-top: 3em;
+        padding-top: 1em;
+      }
+
+      /* Results table: centered on the page, padded, lightly striped. */
+      .post-content table {
+        display: table;
+        margin: 1.8em auto;
+        border-collapse: collapse;
+        border: 1px solid #d0d7de;
+        font-variant-numeric: tabular-nums;
+      }
+      .post-content table th,
+      .post-content table td {
+        padding: 9px 22px;
+        border: none;
+      }
+      .post-content table thead th {
+        background: #eef1f4;
+        border-bottom: 2px solid #d0d7de;
+      }
+      .post-content table tbody tr {
+        border: none;
+      }
+      .post-content table tbody tr:nth-child(odd) {
+        background: #f6f8fa;
+      }
+      .post-content table tbody tr:nth-child(even) {
+        background: #ffffff;
+      }
+      .table-caption {
+        font-size: 0.85em;
+        color: #57606a;
+        text-align: center;
+        margin-top: -0.4em;
+      }
+
+      /* Hover popover for footnotes */
+      .fn-tooltip {
+        position: absolute;
+        z-index: 50;
+        max-width: 360px;
+        background: #fff;
+        border: 1px solid #d0d7de;
+        border-radius: 8px;
+        box-shadow: 0 6px 24px rgba(27, 31, 36, 0.14);
+        padding: 10px 14px;
+        font-size: 0.9em;
+        line-height: 1.55;
         color: #24292e;
-        background-color: #fff;
+        pointer-events: auto;
       }
+      .fn-tooltip p { margin: 0; }
     </style>
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
   </head>
   <body>
     <article class="markdown-body">
@@ -57,10 +201,55 @@
         </div>
         <a href="/blog/" class="back-link">← Back to Blog</a>
       </div>
-      
+
       <div class="post-content">
         {{ content }}
       </div>
     </article>
+
+    <script>
+      // Footnote hover popovers: on hover over a footnote reference, clone the
+      // already-rendered footnote (math included) into a small box near the cursor.
+      (function () {
+        function init() {
+          var tip = null, timer = null;
+          function remove() { if (tip) { tip.remove(); tip = null; } }
+          function scheduleHide() { clearTimeout(timer); timer = setTimeout(remove, 280); }
+          function cancelHide() { clearTimeout(timer); }
+          function show(e) {
+            cancelHide();
+            remove();
+            var a = e.currentTarget;
+            var href = a.getAttribute('href');
+            var li = document.getElementById(decodeURIComponent(href.slice(1)));
+            if (!li) return;
+            tip = document.createElement('div');
+            tip.className = 'fn-tooltip';
+            var clone = li.cloneNode(true);
+            clone.querySelectorAll('a.reversefootnote, a.footnote-backref').forEach(function (b) { b.remove(); });
+            tip.innerHTML = clone.innerHTML;
+            // Keep the box open while the cursor is inside it.
+            tip.addEventListener('mouseenter', cancelHide);
+            tip.addEventListener('mouseleave', scheduleHide);
+            document.body.appendChild(tip);
+            var r = a.getBoundingClientRect();
+            var top = window.scrollY + r.top - tip.offsetHeight - 8;
+            var left = window.scrollX + r.left;
+            var maxLeft = window.scrollX + document.documentElement.clientWidth - tip.offsetWidth - 8;
+            if (left > maxLeft) left = maxLeft;
+            if (left < window.scrollX + 8) left = window.scrollX + 8;
+            if (top < window.scrollY + 4) top = window.scrollY + r.bottom + 8; // flip below if no room above
+            tip.style.top = top + 'px';
+            tip.style.left = left + 'px';
+          }
+          document.querySelectorAll('a[href^="#fn:"]').forEach(function (a) {
+            a.addEventListener('mouseenter', show);
+            a.addEventListener('mouseleave', scheduleHide);
+          });
+        }
+        if (document.readyState !== 'loading') init();
+        else document.addEventListener('DOMContentLoaded', init);
+      })();
+    </script>
   </body>
 </html>
