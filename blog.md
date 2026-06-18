@@ -4,6 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
+<a href="/" style="color: #0366d6; text-decoration: none;">← Home</a>
+
 # Blog Posts
 
 {% for post in site.posts %}
