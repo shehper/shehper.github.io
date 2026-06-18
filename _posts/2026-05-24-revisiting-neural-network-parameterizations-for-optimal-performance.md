@@ -2,7 +2,7 @@
 layout: post
 title: "Revisiting Neural Network Parameterizations for Optimal Performance"
 date: 2026-05-24
-description: "Reproducing Everett et al.: a modified standard parameterization admits hyperparameter transfer and outperforms μP — over both width and depth."
+description: "A modified standard parameterization admits hyperparameter transfer and outperforms μP — over both width and depth."
 ---
 
 <div class="callout" markdown="1">
