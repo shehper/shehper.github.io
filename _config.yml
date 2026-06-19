@@ -3,11 +3,10 @@ logo: prof_pic.jpg
 theme: jekyll-theme-minimal
 repository: shehper/shehper.github.io
 
-# Pin the README-as-homepage to the theme's default layout so its logo/sidebar
-# renders. (A local _layouts/page.html otherwise shadows the theme default for
-# the index page via the jekyll-default-layout plugin.)
+# Render the README-as-homepage with our custom single-column layout
+# (_layouts/home.html) instead of the theme's cramped sidebar layout.
 defaults:
   - scope:
       path: README.md
     values:
-      layout: default
+      layout: home

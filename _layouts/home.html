@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        line-height: 1.7;
+        color: #24292e;
+        background-color: #fff;
+      }
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+      @media (max-width: 767px) {
+        .markdown-body { padding: 18px; }
+      }
+      /* Small profile photo tucked into the top-right; text flows full width. */
+      .profile-pic {
+        float: right;
+        width: 160px;
+        height: auto;
+        border-radius: 10px;
+        margin: 4px 0 14px 26px;
+      }
+      /* The name heading shouldn't carry the heavy underline. */
+      .markdown-body h1:first-of-type {
+        border-bottom: none;
+        margin-top: 0;
+        padding-bottom: 0;
+      }
+      @media (max-width: 480px) {
+        .profile-pic { width: 110px; margin: 0 0 10px 16px; }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="markdown-body">
+      <img class="profile-pic" src="/{{ site.logo | default: 'prof_pic.jpg' }}" alt="{{ site.title }}">
+      {{ content }}
+    </article>
+  </body>
+</html>
