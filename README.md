@@ -1,6 +1,6 @@
 # Ali Shehper
 
-I am an AI Researcher, currently a Senior Research Scientist on the Nemotron team at NVIDIA. 
+I am an AI researcher, currently a Senior Research Scientist on the Nemotron team at NVIDIA. 
 
 <!-- I previously worked on language models at [Essential AI](https://essential.ai/). 
 Prior to that, I was a Research Scientist at Caltech, focusing on Reinforcement Learning for Math, and earlier, a Physicist studying supersymmetric and topological quantum field theories. -->
@@ -17,22 +17,22 @@ I was trained as a physicist, studying supersymmetric and topological quantum fi
  
 ### Science of Deep Learning
 
-- [A Training-Time Diagnostic for Generalization via the Log-Alignment Ratio](https://arxiv.org/abs/2605.28975).
+- [A Training-Time Diagnostic for Generalization via the Log-Alignment Ratio](https://arxiv.org/abs/2605.28975).<br>
   **A. Shehper**, A. Vaswani.
 
 
 ### Physics
 
-- **[Nonabelian Twists of the D4 Theory](https://arxiv.org/abs/2112.10227)**
-  J. Distler, B. Ergun, **A. Shehper** (equal contribution with B. Ergun, alphabetical order).
+- **[Nonabelian Twists of the D4 Theory](https://arxiv.org/abs/2112.10227)**<br>
+  J. Distler, B. Ergun, **A. Shehper** (lead contribution with B. Ergun, alphabetical order).
 
-- **[Symmetries of 2d TQFTs and Equivariant Verlinde Formulae for General Groups](https://arxiv.org/abs/2111.08032)**
+- **[Symmetries of 2d TQFTs and Equivariant Verlinde Formulae for General Groups](https://arxiv.org/abs/2111.08032)**<br>
   S. Gukov, D. Pei, C. Reid, **A. Shehper** (lead contributor, alphabetical order).
 
-- **[Distinguishing 4d N=2 SCFTs](https://arxiv.org/abs/2012.15249)**
+- **[Distinguishing 4d N=2 SCFTs](https://arxiv.org/abs/2012.15249)**<br>
   J. Distler, B. Ergun, **A. Shehper** (equal contribution with B. Ergun, alphabetical order).
 
-- **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970)**
+- **[Deformations of surface defect moduli spaces](https://arxiv.org/abs/2011.01970)**<br>
   A. Neitzke, **A. Shehper** (lead contributor, alphabetical order).
 
 - **[PhD Thesis: Aspects of Supersymmetric and Topological Quantum Field Theories](https://repositories.lib.utexas.edu/items/5c4fa949-3c47-450b-847f-6d155e2b57d8).**
