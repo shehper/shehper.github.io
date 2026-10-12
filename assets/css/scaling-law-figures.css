@@ -1,0 +1,91 @@
+/* Figure layout for the January 2025 scaling-laws post only. */
+.post-content .scaling-equation {
+  margin: 2rem 0;
+  max-width: 100%;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.post-content .scaling-equation mjx-container[display="true"] {
+  margin: 0;
+}
+
+@media (max-width: 360px) {
+  .post-content .scaling-equation { font-size: 15px; }
+}
+
+.post-content .scaling-figure {
+  width: 100%;
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.post-content .scaling-figure a {
+  display: block;
+  cursor: zoom-in;
+}
+
+.post-content .scaling-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.post-content .scaling-figure a:focus-visible {
+  outline: 2px solid #0366d6;
+  outline-offset: 5px;
+}
+
+.post-content .scaling-figure--equation { max-width: 400px; }
+.post-content .scaling-figure--formula { max-width: 500px; }
+.post-content .scaling-figure--table { max-width: 540px; }
+.post-content .scaling-figure--diagram { max-width: 360px; }
+
+/* Dense panels get extra room while the surrounding text stays readable. */
+.post-content .scaling-figure--wide,
+.post-content .scaling-figure-pair {
+  width: min(1040px, calc(100vw - 52px));
+  max-width: none;
+  margin: 2.25rem 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Keep the results beside the figures usable on a narrow screen. */
+.post-content .scaling-results-table {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1.8em 0;
+}
+
+.post-content .scaling-results-table table {
+  margin: 0 auto;
+}
+
+.post-content .scaling-figure-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.post-content .scaling-figure-pair .scaling-figure {
+  min-width: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .post-content .scaling-figure--wide,
+  .post-content .scaling-figure-pair {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
+  .post-content .scaling-figure-pair {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

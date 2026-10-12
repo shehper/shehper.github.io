@@ -1,0 +1,171 @@
+{
+  "purpose": "Figure source record for the January 2025 scaling-laws post.",
+  "assets": {
+    "feature-decomposition.png": {
+      "sha256": "99369e1ad60fca493e2b8e9a9353ab2c1a32d0423e8e33ae62c087d97ac9d0b9",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image10.png",
+      "pixels": [
+        400,
+        128
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "feature-importance.png": {
+      "sha256": "97dceb263df5f4dc1bee1a1ea200408be21c023f302ae376e6747a4f5ed920e3",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image18.png",
+      "pixels": [
+        804,
+        194
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "feature-retention-exponent.png": {
+      "sha256": "c78d6243ca82020cd5213ae4934bcb1c7d2deebf8f983c06a27439ab7723bd47",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image27.png",
+      "pixels": [
+        874,
+        658
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "feature-retention-losses.png": {
+      "sha256": "686f770f064a73aa512cd12b1971b6f5d5cb65d3ee3ceaffae49103262a46700",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image28.png",
+      "pixels": [
+        854,
+        674
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "feature-retention-scaling.png": {
+      "sha256": "ba756ed078814e337b608e4b1e8430c90438301e883a5ac6735ca207491e5744",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image26.png",
+      "pixels": [
+        1158,
+        642
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "golden-gate-activations.png": {
+      "sha256": "05e90d914816e0594fcc17a58fcbdd47e3ddd48841d1b24ac46e2f22645f222d",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image11.png",
+      "pixels": [
+        1530,
+        414
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "golden-gate-behavior.png": {
+      "sha256": "4086ac1e5c04f9947526dc9632d09953ef890782d77edf5c79ff602cd386f8e6",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image16.png",
+      "pixels": [
+        1642,
+        534
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "importance-universality-grid.svg": {
+      "sha256": "182209f3aff3e38f72b2e4f80afb3a0ad0cd8f1d316eac4a1d0cf2d35ed893d4",
+      "source": "feature_universality-apollo/figs/imp_vs_univ.pdf",
+      "changes": "Original axes, fitted curves, contour paths, ticks and correlation labels preserved. Scatter markers rasterized for web size; generic axis labels replace redundant outer correlation labels.",
+      "scatter_dpi": 225
+    },
+    "importance-universality.svg": {
+      "sha256": "1a7fc4c62271e43726faa7e9a9911bcff528b93b7d6e79a9a7b3fc9568cee290",
+      "source": "feature_universality-apollo/figs/imp_vs_univ.pdf",
+      "changes": "Original axes, fitted curves, contour paths, ticks and correlation labels preserved. Scatter markers rasterized for web size; generic axis labels replace redundant outer correlation labels.",
+      "scatter_dpi": 450
+    },
+    "model-losses-table.png": {
+      "sha256": "f855a531a476597d613a6e51c379adeac4bf0fd98e9663bc716bd3d597cc7002",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image19.png",
+      "pixels": [
+        946,
+        300
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "reconstructed-losses.png": {
+      "sha256": "44244b86fc503aef700df511e435a291c3e1ce227cbcf853fabdf4c690433dba",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image21.png",
+      "pixels": [
+        640,
+        480
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "sae-encoder.png": {
+      "sha256": "933e41e348548c1f4cbecf7746b1d2da168122676a04cc7b224fcd15787161c2",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image15.png",
+      "pixels": [
+        552,
+        126
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "sae-objective.png": {
+      "sha256": "008f70af9618f86592cc27a09a5babbbdd34220d1fffc0af39d330f9dea6bf7b",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image14.png",
+      "pixels": [
+        788,
+        172
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "scaling-laws-background.png": {
+      "sha256": "1e753ac5e70ece3483fe610c731010e7b751614b623bc759043832bc09a30be0",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image6.png",
+      "pixels": [
+        2182,
+        700
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "superposition.png": {
+      "sha256": "6396266e41c4e815db1631264987b61aa98e24b5e0f7a2ad179083d3ab1806ff",
+      "source": "Presentation2.pptx",
+      "media": "ppt/media/image12.png",
+      "pixels": [
+        526,
+        520
+      ],
+      "changes": "Original embedded image, copied without altering pixels."
+    },
+    "training-loss.svg": {
+      "sha256": "bd5c4483b8289642a82f7140767d740fd4b98c9380e99fa3815ef5c1ba5b2cd3",
+      "source": "feature_universality/notebooks/wandb_data.ipynb, saved training table output",
+      "parameter_counts": [
+        1572864,
+        6291456,
+        25165824,
+        56623104
+      ],
+      "training_losses": [
+        4.060868740081787,
+        3.5958588123321533,
+        3.245028495788574,
+        3.0515332221984863
+      ],
+      "alpha": 0.07928325796730225,
+      "Nc": 70604512301257.23,
+      "changes": "Redrawn with exact saved values and the original fit recipe; visual styling only."
+    }
+  },
+  "scientific_text_updates": {
+    "sae_setup": "24576 latents at blocks.6.hook_resid_pre, as recorded in saved run configurations.",
+    "table": "Coefficients mapped from the saved plot order 768,512,256,128 to the displayed table order 128,256,512,768. 0.6446 matches the original grid and saved arrays."
+  },
+  "remaining_verification": "The statistics accumulator and other methodological caveats are documented separately. These figure changes do not independently validate all original experiments."
+}
